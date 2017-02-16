@@ -40,4 +40,12 @@ public class SalariedEmployee extends Employee {
 		
 		return String.format("Salaried employee: %s%n%s $%.2f", super.toString(), "Weekly salary", getWeeklySalary());
 	}
+
+	@Override
+	public double getPaymentAmount() {
+		// TODO Auto-generated method stub
+		return getWeeklySalary();
+	}
+	
+	
 }

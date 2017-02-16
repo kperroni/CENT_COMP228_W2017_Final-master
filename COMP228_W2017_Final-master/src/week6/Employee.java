@@ -1,6 +1,6 @@
 package week6;
 
-public abstract class Employee {
+public abstract class Employee implements Payable {
 
 	private final String firstName;
 	private final String lastName;

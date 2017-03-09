@@ -47,7 +47,7 @@ public class ComboBoxFrame extends JFrame{
 						
 					}
 					
-				} //End to our annoymous class
+				} //End to our anonymous class
 				
 				); //End call to addItemListener
 		
